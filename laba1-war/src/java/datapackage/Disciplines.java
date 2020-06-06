@@ -84,20 +84,6 @@ public class Disciplines implements Serializable {
     public void setLectid(Lecturers lectid) {
         this.lectid = lectid;
     }
-  /*  public String getLecturers() {
-        return lecturers.getName();
-    }
-
-    public void setLecturers(Lecturers lecturers) {
-        this.lecturers = lecturers;
-    }
-   public String getLecturerssn() {
-        return lecturers.getSurname();
-    }
-
-    public void setLecturerssn(Lecturers lecturers) {
-        this.lecturers = lecturers;
-    }*/
 
     @Override
     public int hashCode() {
